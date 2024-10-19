@@ -65,8 +65,6 @@ a="Work hard until you succeed"
 'city'
 >>> a[11:13]
 'is'
->>> a="codegnan:
-SyntaxError: unterminated string literal (detected at line 1)
 >>> a="codegnan"
 >>> a[0:4]
 'code'
@@ -75,9 +73,6 @@ SyntaxError: unterminated string literal (detected at line 1)
 >>> a="Quick brown fox"
 >>> a[0:5]
 'Quick'
->>> a[12:15'
-...   
-SyntaxError: unterminated string literal (detected at line 1)
 >>> a[12:15]
 ...   
 'fox'
